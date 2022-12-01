@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 46 px;
+  width: 100%;
+  position: fixed;
+}
+
+#nav {
+  display: inline-block;
+}
+
+#nav > li {
+  display: inline-block;
+}
+
+#nav li a {
+  color: white;
+  font-size: 15px;
+  padding: 0px 24px;
+  line-height: 46px;
+  display: block;
+  text-decoration: none;
+}
+
+#nav li:hover .subnav,
+#nav li:hover a {
+  color: black;
+  background-color: #ccc;
+  display: block;
+}
+
+#nav .subnav {
+  position: absolute;
+  list-style: none;
+  display: none;
+}
+
+#nav .subnav li a {
+  color: black;
+  background-color: white;
+}
+
+#nav .subnav li:hover a {
+  color: black;
+  background-color: #ccc;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a {
+  padding: 0 64px 0 16px;
+  line-height: 38px;
+}
+
+#nav .nav-narrow-down {
+  font-size: 12px;
+}
+
+#header .searchButton {
+  color: white;
+
+  float: right;
+  font-size: 16px;
+  line-height: 46px;
+  padding: 0 24px;
+}
+
+#header .searchButton:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+#slider {
+  margin-top: 46px;
+  padding-top: 50%;
+  background: url("../image/ny.jpg") top center/ cover no-repeat;
+}
+
+#slider .text-content {
+  position: relative;
+  bottom: 48px;
+  color: white;
+  text-align: center;
+  /* width: 100%;  */
+}
+
+#slider .text-heading {
+  font-weight: 500;
+  font-size: 24px;
+  padding: 16px;
+}
+
+#slider .text-description {
+  font-size: 15px;
+  padding: 16px;
+}
+
+#content {
+  width: 800px;
+  padding: 64px 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content .content-section {
+}
+
+#content .section-heading {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  letter-spacing: 4px;
+}
+
+#content .section-sub-heading {
+  font-style: italic;
+  opacity: 0.6;
+  margin: 15px;
+  text-align: center;
+}
+#content .about-text {
+  text-align: justify;
+}
+
+#content .member-list{
+    overflow: hidden;
+    padding: 32px 0;
+    
+}
+
+#content .member-item{
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+   
+}
+
+#content .member-name{
+    font-size: 15px;
+}
+
+
+#content .member-img
+{
+ width: 154px;
+ margin-top: 15px;
+ border-radius: 5px;
+}
