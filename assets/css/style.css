@@ -134,27 +134,72 @@ html {
   text-align: justify;
 }
 
-#content .member-list{
-    overflow: hidden;
-    padding: 32px 0;
-    
+#content .member-list {
+  overflow: hidden;
+  padding: 32px 0;
 }
 
-#content .member-item{
-    float: left;
-    width: calc(100%/3);
-    text-align: center;
-   
+#content .member-item {
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
 }
 
-#content .member-name{
-    font-size: 15px;
+#content .member-name {
+  font-size: 15px;
 }
 
+#content .member-img {
+  width: 154px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
 
-#content .member-img
-{
- width: 154px;
- margin-top: 15px;
- border-radius: 5px;
+#contact {
+  width: 800px;
+  padding: 64px 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact .section-heading {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  letter-spacing: 4px;
+}
+
+#contact .section-sub-heading {
+  font-style: italic;
+  opacity: 0.6;
+  margin: 15px;
+  text-align: center;
+}
+
+#contact .contact-info {
+  display: flex;
+}
+
+#contact .list-contact {
+  list-style: none;
+  width: calc(100% / 2);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#contact .contact-form {
+  width: calc(100% / 2);
+  /* border: red solid 1px; */
+}
+
+#contact .contact-form input {
+  height: 40px;
+}
+
+#contact .contact-form button {
+  float: right;
+  margin: 16px 0;
+  padding: 8px 16px;
+  color: #fff !important;
+  background-color: #000 !important;
 }
